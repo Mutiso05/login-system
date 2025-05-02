@@ -1,0 +1,53 @@
+
+<<!DOCTYPE html> <!-- Declares the document type and version of HTML -->
+<html lang="en"> <!-- Specifies the language of the document as English -->
+<head>
+    <meta charset="UTF-8"> <!-- Sets the character encoding for the document to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures proper scaling and responsiveness on different devices -->
+    <title>Document</title> <!-- Sets the title of the webpage -->
+    <style>
+        body{
+            display: flex; /* Uses flexbox layout for body */
+            align-items: center; /* Centers items vertically */
+            justify-content: center; /* Centers items horizontally */
+            height: 100vh; /* Sets the height to 100% of the viewport height */
+        }
+        form{
+            display: flex; /* Uses flexbox layout for form */
+            flex-direction: column; /* Stacks form elements vertically */
+            width: 400px; /* Sets the width of the form */
+            gap: 20px; /* Sets the space between form elements */
+        }
+        form input{
+            padding-left: 20px; /* Adds padding to the left inside of the input */
+            font-weight: bold; /* Makes the font bold */
+            font-size: 22px; /* Sets the font size */
+            height: 45px; /* Sets the height of the input */
+            background-color: aliceblue; /* Sets the background color */
+            border-radius: 10px; /* Rounds the corners of the input */
+        }
+        button{
+            height: 38px; /* Sets the height of the button */
+            font-weight: bold; /* Makes the font bold */
+            font-size: 15px; /* Sets the font size */
+            background-color: white; /* Sets the background color */
+            width: 55%; /* Sets the width of the button */
+            align-self: center; /* Centers the button horizontally */
+            border-radius: 15px; /* Rounds the corners of the button */
+        }
+    </style>
+</head>
+<body>
+    <form action="login.php" method="post"> <!-- Form that submits data to login.php using POST method -->
+        <input type="text" name="username" placeholder="email"> <!-- Input field for username with placeholder text "email" -->
+        <input type="password" name="password" placeholder="password"> <!-- Input field for password with placeholder text "password" -->
+        <button type="submit" style="text-decoration-color: black;">Sign In</button> <!-- Submit button with custom style -->
+        <h1 style="text-align: center;">OR</h1> <!-- Heading with centered text -->
+        
+        <a href="registration.html" style="text-align: center; font-size: larger;">Register New Account</a> <!-- Link to registration page with centered and larger text -->
+    </form>
+</body>
+</html>
+        </form>
+</body>
+</html>
